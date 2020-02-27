@@ -16,7 +16,7 @@ public class ResultActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
 
-        TextView winner = (TextView) findViewById(R.id.textView3);
+        TextView winner = findViewById(R.id.textView3);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {

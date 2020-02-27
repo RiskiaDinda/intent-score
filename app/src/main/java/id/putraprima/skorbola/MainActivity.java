@@ -95,9 +95,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.e(TAG, e.getMessage());
                 }
             }
-        }
-
-        if (requestCode == 2){
+        }else if (requestCode == 2){
             if (data != null){
                 try{
                     imageUri2 = data.getData();
